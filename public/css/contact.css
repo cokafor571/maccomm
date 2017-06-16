@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat");
+/* general */
+h2 {
+  margin-top: 2em; }
+
+p {
+  margin: 1em 0; }
+
+.form {
+  border: 1px solid rgba(0, 0, 0, 0.65);
+  padding: 2em 2em 4em;
+  margin-bottom: 2em;
+  width: 60%;
+  margin: 0 auto 2em; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJjb250YWN0LmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Ecm9pZCtTZXJpZnxNb250c2VycmF0XCIpO1xuLyogZ2VuZXJhbCAqL1xuaDIge1xuICBtYXJnaW4tdG9wOiAyZW07IH1cblxucCB7XG4gIG1hcmdpbjogMWVtIDA7IH1cblxuLmZvcm0ge1xuICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIDAuNjUpO1xuICBwYWRkaW5nOiAyZW0gMmVtIDRlbTtcbiAgbWFyZ2luLWJvdHRvbTogMmVtO1xuICB3aWR0aDogNjAlO1xuICBtYXJnaW46IDAgYXV0byAyZW07IH1cbiJdLCJmaWxlIjoiY29udGFjdC5jc3MifQ== */

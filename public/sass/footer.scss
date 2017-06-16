@@ -1,0 +1,64 @@
+@import "fonts"; 
+@import "colors"; 
+@import "typography"; 
+@import "structure"; 
+
+/* footer */
+.footer-section {
+    border-left: 1px inset $border-color;
+}
+
+.footer {
+    margin-top: 6em; 
+    color: white; 
+    background: $footer-color;
+
+    p {
+        margin: 1em 0; 
+    }
+}
+
+.footer-bottom {
+    color: white;
+    background: $footer-lite; 
+}
+
+.bottombanner {
+    background: $border-color;
+    color: #000;
+    margin-bottom: 2em;
+    border: 1px solid $border-color;
+    border-bottom-left-radius: 10%25%;
+    border-bottom-right-radius: 10%25%;
+
+    img {
+        height: 50px;
+        width: 50px; 
+    }
+
+    .bottomline {
+        text-align: center; 
+    }
+    
+    .scrolltop {
+        text-align: right;
+        display: inline-block; 
+    }
+}
+
+.footerspace {
+    height: 2em;
+    width: auto; 
+}
+
+[type="submit"] {
+    float: right;
+    cursor: pointer; 
+}
+
+.copyright {
+
+    p {
+        margin: 0 auto; 
+    }
+}

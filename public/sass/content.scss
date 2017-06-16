@@ -1,0 +1,47 @@
+@import "fonts"; 
+@import "colors"; 
+@import "typography"; 
+@import "structure";
+
+.aboutsection, 
+.presidentsection, 
+.servicesection, 
+.programsection,
+.committeesectoin,
+.joinsection,
+.valuesection,
+.youthsection,
+.contactsection {
+
+    .row {
+        width: 960px;
+        margin: 0 auto; 
+        border: 0px solid transparent;
+        box-shadow: 1px 5px 8px; 
+
+        .col-sm-12 {
+            background: #fff; 
+            padding: 1.8em 4em 3em;  
+
+            h2,
+            h3 {
+                text-align: center;
+                font-weight: 700; 
+            }
+
+            p,
+            h3 {
+                margin-top: 2em; 
+
+                span {
+                    font-weight: 700; 
+                }
+            }
+
+            ul {
+                list-style: none; 
+            }
+        }
+    }
+}
+

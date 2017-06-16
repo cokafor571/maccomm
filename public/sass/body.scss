@@ -1,0 +1,65 @@
+@import "fonts"; 
+@import "colors"; 
+@import "typography"; 
+@import "structure";
+
+/* general */ 
+
+.clearfloat {
+    clear: both; 
+}
+
+/* events tab */
+.centertabs {
+    padding-top: 6em;
+    padding-left: 40%;
+    background: $second-lite;
+}
+
+.events {
+    
+    .col-sm-3, .col-sm-9 {
+        margin-top: 2em;
+        
+        h4, p {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    }
+    
+    .allevents {
+        float: right; 
+    }
+}
+
+/* downloads */
+
+.wrapper {
+    height: 250px;
+    width: 250px; 
+    right: 0; 
+    margin-right: 10em;
+    border-left: 1px solid rgba(0,0,0,.2); 
+    margin-top: 2em;
+    
+    .downloads {
+        position: absolute;
+        margin-left: 2em;
+        height: 200px;
+        width: 150px;
+        border: 1px solid transparent;
+        margin-top: 25px;
+        box-shadow: 0px 2px 5px 0px rgba(119, 119, 119, 0.4);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(119, 119, 119, 0.4);
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(119, 119, 119, 0.4);
+        z-index: 2; 
+        padding: 0 5px;
+
+        p {
+            &:nth-child(2) {
+                margin-top: 2em;
+                font-size: 0.8rem; 
+            }
+        }
+    }
+}
